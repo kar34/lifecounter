@@ -1,0 +1,198 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    >
+
+    <RelativeLayout
+        android:id="@+id/p1section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/p1label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player 1: 20 lives" />
+
+        <Button
+            android:id="@+id/p1inc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/p1label"
+            android:layout_marginBottom="30dp"
+            android:text="+1" />
+
+        <Button
+            android:id="@+id/p1dec1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/p1inc1"
+            android:layout_below="@id/p1label"
+            android:text="-1" />
+
+        <Button
+            android:id="@+id/p1inc5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/p1dec1"
+            android:layout_below="@id/p1label"
+            android:text="+5" />
+
+        <Button
+            android:id="@+id/p1dec5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/p1inc5"
+            android:layout_below="@id/p1label"
+            android:text="-5" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/p2section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/p1section" >
+
+        <TextView
+            android:id="@+id/p2label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player 1: 20 lives" />
+
+        <Button
+            android:id="@+id/p2inc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/p2label"
+            android:layout_marginBottom="30dp"
+            android:text="+1" />
+
+        <Button
+            android:id="@+id/p2dec1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/p2inc1"
+            android:layout_below="@id/p2label"
+            android:text="-1" />
+
+        <Button
+            android:id="@+id/p2inc5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/p2dec1"
+            android:layout_below="@id/p2label"
+            android:text="+5" />
+
+        <Button
+            android:id="@+id/p2dec5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/p2inc5"
+            android:layout_below="@id/p2label"
+            android:text="-5" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/p3section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/p2section" >
+
+        <TextView
+            android:id="@+id/p3label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player 1: 20 lives" />
+
+        <Button
+            android:id="@+id/p3inc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/p3label"
+            android:layout_marginBottom="30dp"
+            android:text="+1" />
+
+        <Button
+            android:id="@+id/p3dec1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/p3inc1"
+            android:layout_below="@id/p3label"
+            android:text="-1" />
+
+        <Button
+            android:id="@+id/p3inc5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/p3dec1"
+            android:layout_below="@id/p3label"
+            android:text="+5" />
+
+        <Button
+            android:id="@+id/p3dec5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/p3inc5"
+            android:layout_below="@id/p3label"
+            android:text="-5" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/p4section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/p3section" >
+
+        <TextView
+            android:id="@+id/p4label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player 1: 20 lives" />
+
+        <Button
+            android:id="@+id/p4inc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/p4label"
+            android:layout_marginBottom="30dp"
+            android:text="+1" />
+
+        <Button
+            android:id="@+id/p4dec1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/p4inc1"
+            android:layout_below="@id/p4label"
+            android:text="-1" />
+
+        <Button
+            android:id="@+id/p4inc5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/p4dec1"
+            android:layout_below="@id/p4label"
+            android:text="+5" />
+
+        <Button
+            android:id="@+id/p4dec5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/p4inc5"
+            android:layout_below="@id/p4label"
+            android:text="-5" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/loser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
+
+
